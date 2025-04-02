@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+	<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MusicBooking.Infrastructure\MusicBooking.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
